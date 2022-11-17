@@ -32,41 +32,41 @@ public class Ambrose {
 
        if(avg>=80)
 
-         grade = "A";
+       System.out.println("A");
 
 
       else if(avg>=75 && avg<79)
 
-         grade = "B+";
+        System.out.println("B+");
 
       else if(avg>=70 && avg<74)
-
-         grade = "B";
+System.out.println("B");
+        
 
       else if(avg>=65 && avg<69)
 
-         grade = "C+";
+         System.out.println("C+");
 
       else if(avg>=60 && avg<64)
 
-         grade = "C";
+         System.out.println("C");
 
       else if(avg>=55 && avg<59)
 
-         grade = "D+";
-        
+       
+        System.out.println("D+");
 
       else if(avg>=50 && avg<54)
 
-         grade = "D";
-
+        
+System.out.println("D");
       
 
       else if(avg<=49)
 
-         grade = "F";
+         System.out.println("F");
 
-                System.out.println("\nGrade = " +grade);
+                
 
    }
 
